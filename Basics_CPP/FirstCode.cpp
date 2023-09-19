@@ -1,16 +1,23 @@
 #include <iostream>
-//using namespace std;
+using namespace std;
 
-int main(){
+int main() {
+    // Declaração das variáveis para armazenar a entrada do usuário
+    int a, b, soma;
 
-    int a,b, soma;
+    // Solicitar ao usuário que insira os números
+    cout << "Digite dois numeros inteiro: ";
+    
+    // Ler a entrada do usuário
+    cin >> a;
+    cin >> b;
 
-    std::cout << "Digite 2 numeros: ";  // caso não seja definido antes da main o "using namespace std;", escreva: "std::cout << ..."
-
-    std::cin >> a;
-    std::cin >> b;
-
+    // Calcular a soma dos números
     soma = a + b;
 
-    std::cout << "\nA soma dos numeros eh: " << soma << std::endl;
+    // Exibir o resultado
+    std::cout << "A soma de " << a << " e " << b << " eh "<< soma << endl;
+
+    return 0;
 }
+
