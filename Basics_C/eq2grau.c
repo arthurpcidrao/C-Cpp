@@ -8,15 +8,15 @@ int main(void) {
 	
 	float a, b, c;
 	
-	printf("   Equação: ax2 + bx + c = 0\n\n");
+	printf("   Equacao: ax2 + bx + c = 0\n\n");
 	
-	printf("   Digite um número para a: ");
+	printf("   Digite um numero para a: ");
 	scanf("%f",&a);
 	
-	printf("\n   Digite um número para b: ");
+	printf("\n   Digite um numero para b: ");
 	scanf("%f",&b);
 	
-	printf("\n   Digite um número para c: ");
+	printf("\n   Digite um numero para c: ");
 	scanf("%f",&c);
 	
 	printf("\n\n   %fx2 + %fx + %f = 0\n\n",a,b,c);
@@ -33,7 +33,7 @@ int main(void) {
 	
 	if (delta < 0) {
 		
-		printf("       As raizes complexas são:\n\n");
+		printf("       As raizes complexas sao:\n\n");
 		
 		printf("       x1= %f + (%f)i\n",x,fabs(y));
 		
@@ -42,7 +42,7 @@ int main(void) {
 	
 	else {
 		
-		printf("       As raizes são:\n\n");
+		printf("       As raizes sao:\n\n");
 		
 		printf("       x1= %f\n",x1);
 		
